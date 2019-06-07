@@ -1,5 +1,30 @@
 package main
 
-func main() {
+import (
+	"fmt"
+)
 
+func main() {
+	num := 65
+
+	n1 := factorial(num)
+	fmt.Println(n1)
+	n2 := loopFact(num)
+	fmt.Println(n2)
+}
+
+func factorial(n int) int {
+	if n == 0 {
+		return 1
+	}
+	return n * factorial(n-1)
+}
+
+func loopFact(n int) int {
+	total := 1
+
+	for ; n > 0; n-- {
+		total *= n
+	}
+	return total
 }
