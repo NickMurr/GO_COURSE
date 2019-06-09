@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainWhen() {
 	x := 0
 	fmt.Println("x befor:", &x)
 	fmt.Println("x befor:", x)

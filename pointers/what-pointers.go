@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainWhat() {
 	a := 42
 	fmt.Println(a)
 	fmt.Println(&a) // & gives you the address
