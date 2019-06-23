@@ -6,5 +6,6 @@ func main() {
 	// documentation()
 	// raceCondition()
 	// mutex()
-	atomicMethod()
+	// atomicMethod()
+	exercises()
 }
